@@ -7,6 +7,32 @@
     <link rel="stylesheet" href="reset.css"/>
     <link rel="stylesheet" href="style.css"/>
     <script src="https://kit.fontawesome.com/dcbdca1857.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script>
+        let a = "wedo_1";
+        let b = "wedo_2";
+        let c = "wedo_3";
+        function toggleVisibility(id) {
+            if(id === "wedo_1") {
+                let element = document.getElementById("wedo_1");
+                let icon = document.getElementById("i1");
+                element.classList.toggle("displayChange");
+                icon.classList.toggle("rotate");
+            }
+            if(id === "wedo_2") {
+                let element = document.getElementById("wedo_2");
+                let icon = document.getElementById("i2");
+                element.classList.toggle("displayChange");
+                icon.classList.toggle("rotate");
+            }
+            if(id === "wedo_3") {
+                let element = document.getElementById("wedo_3");
+                let icon = document.getElementById("i3");
+                element.classList.toggle("displayChange");
+                icon.classList.toggle("rotate");
+            }
+        }
+    </script>
 </head>
 <body>
 <header class="header" id="header">
@@ -182,6 +208,77 @@
             </div>
         </div>
     </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section_header">
+                <h3 class="section_suptitle">Service</h3>
+                <h2 class="section_title">What we do</h2>
+            </div>
+            <div class="section_text">
+                <p> We gather and present you the most wonderful stories and adventures from the thoughts hidden in the
+                    night and stars. </p>
+            </div>
+            <div class="wedo">
+                <div class="wedo_item"><img class="wedo_image" src="images/sleep.jpg" alt=""></div>
+                <div class="wedo_item">
+                    <div class="accordion">
+                        <div class="accordion_item" onclick="toggleVisibility(a)">
+                            <div class="accordion_header" id="i1">
+                                <img class="accordion_icon" src="images/icons/ico7.png" alt="">
+                                <div class="accordion_title"> Photography</div>
+                            </div>
+                            <div class="accordion_content" id="wedo_1">
+                                <p>A short story is a piece of prose fiction that typically can
+                                    be
+                                    read in one sitting and focuses on a self-contained incident or series of linked
+                                    incidents,
+                                    with the intent of evoking a single effect or mood. The short story is one of the
+                                    oldest
+                                    types of literature and has existed in the form of legends, mythic tales, folk
+                                    tales,
+                                    fairy
+                                    tales, tall tales, fables and anecdotes in various ancient communities around the
+                                    world.
+                                    The
+                                    modern short story developed in the early 19th century.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion_item" onclick="toggleVisibility(b)">
+                            <div class="accordion_header" id="i2">
+                                <img class="accordion_icon" src="images/icons/ico8.png" alt="">
+                                <div class="accordion_title">Story</div>
+                            </div>
+                            <div class="accordion_content" id="wedo_2">
+                                <p> If someone asked you to tell them a story, what would you
+                                    say?
+                                    Most people probably wouldn't know where to start. Do you tell a traditional story,
+                                    something everyone knows, or do you make up an original one? Do you rely on fairy
+                                    tales
+                                    and
+                                    legends, or do you mix them up to make them new? Whatever you choose, chances are
+                                    your
+                                    story
+                                    is somehow influenced by the stories you heard and learned as a child and have stuck
+                                    with
+                                    you until now.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion_item" onclick="toggleVisibility(c)">
+                            <div class="accordion_header" id="i3">
+                                <img class="accordion_icon" src="images/icons/ico9.png" alt="">
+                                <div class="accordion_title"> Author</div>
+                            </div>
+                            <div class="accordion_content" id="wedo_3"><p>AndyLy, 19 years old student.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 </div>
 </body>
