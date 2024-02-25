@@ -37,7 +37,7 @@ hr {
 .header {
     width: 100%;
     padding-top: 10px;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
@@ -291,8 +291,27 @@ hr {
 
 .section {
     padding: 80px 0;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
 }
-
+#intro {
+    animation-delay: 0.5s;
+}
+#about {
+    animation-delay: 1s;
+}
+#services {
+    animation-delay: 1.5s;
+}
+#work {
+    animation-delay: 2s;
+}
+#blog {
+    animation-delay: 2.5s;
+}
+#footer {
+    animation-delay: 3s;
+}
 .section--gray {
     background-color: #f8f8f8;
 }
@@ -1085,4 +1104,8 @@ hr {
 .copyright span {
     color: #9370DB;
 }
-
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
