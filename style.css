@@ -700,3 +700,55 @@ hr {
     font-weight: 300;
     font-style: italic;
 }
+
+.clients {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.clients_item {
+    width: 50%;
+    padding: 0 45px 0 175px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.clients_photo {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    z-index: 1;
+}
+
+.clients_name {
+    font-size: 14px;
+    color: #ffcce6;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.clients_prof {
+    font-size: 15px;
+    font-style: italic;
+    color: #ffcce6;
+    font-weight: 300;
+}
+
+.clients_text {
+    font-size: 15px;
+    color: #ccccff;
+}
+
+.clients_text:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #cce6ff;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
