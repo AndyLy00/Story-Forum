@@ -584,3 +584,48 @@ hr {
 .accordion_header.rotate:after {
     rotate: 180deg;
 }
+
+.social {
+    display: flex;
+    justify-content: center;
+
+}
+
+.social_item {
+    width: 40px;
+    height: 40px;
+    padding: 6px 6px;
+    background-color: #ffcce6;
+    border-right: 1px solid #9370DB;
+    text-decoration: none;
+    color: #9370DB;
+    line-height: 1;
+    transition: background 0.1s linear, color 0.1s linear;
+}
+
+.social_item:hover {
+    color: white;
+    background-color: #9370DB;
+}
+
+.social_item:last-child {
+    border-right: 0;
+}
+
+.name {
+    font-size: 15px;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.job {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    color: #999999;
+    text-transform: capitalize;
+    text-align: center;
+}
