@@ -629,3 +629,20 @@ hr {
     text-transform: capitalize;
     text-align: center;
 }
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -15px;
+}
+
+.logos_item {
+    padding: 0 15px;
+}
+
+.logos_image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
