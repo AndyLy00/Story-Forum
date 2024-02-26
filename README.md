@@ -1,22 +1,22 @@
-# Lab 2 - Landing page
+# Story-Forum Project, Sirețanu Andreia-Cristina
+I made this project based on fantasy stories and idea to help people to fill fantasy world.
+This project is a secvence from an older project made by me.
 
-Create a web page for your/friends/relatives business (example: car-rent, cookies-shop, crypto-scam)
+## Useful links
+-  Link to original repository https://github.com/AndyLy00/Lilo
+- Link to current repository https://github.com/AndyLy00/Story-Forum
+- Link to original hosted website https://andyly00.github.io/Lilo/
 
-## Customer requirements
+## Screenshots
+![alt text](images/screenshots/Screenshot%20(268).png)
+![alt text](images/screenshots/Screenshot%20(269).png)
+![alt text](images/screenshots/Screenshot%20(270).png)
+![alt text](images/screenshots/Screenshot%20(271).png)
+![alt text](images/screenshots/Screenshot%20(272).png)
+![alt text](images/screenshots/Screenshot%20(274).png)
+![alt text](images/screenshots/Screenshot%20(275).png)
+![alt text](images/screenshots/Screenshot%20(276).png)
+![alt text](images/screenshots/Screenshot%20(277).png)
+![alt text](images/screenshots/Screenshot%20(278).png)
+![alt text](images/screenshots/Screenshot%20(279).png)
 
-- Some form of navigation to sections (links, buttons)
-- Call to action
-- At least 4 sections ([see examples](https://webflow.com/blog/high-converting-landing-page))
-- Pleasant to the eyes
-
-## Dev requirements
-
-- Use vanilla CSS and HTML (no frameworks)
-- Have a decent git history (no one commit)
-- The page should be deployed on a free hosting service (example: GitHub Pages, Vercel, Netlify)
-- Project repo should have a README with a short description of the landing page topic, screenshots, and a link to the live demo
-
-## Other requirements:
-
-- For potential maximal mark, a WIP version should be submitted during the class
-- Use index.html, reset.css
