@@ -5,7 +5,7 @@ This project is a secvence from an older project made by me.
 ## Useful links
 -  Link to original repository https://github.com/AndyLy00/Lilo
 - Link to current repository https://github.com/AndyLy00/Story-Forum
-- Link to original hosted website https://andyly00.github.io/Lilo/
+- Link to original hosted website https://story-forum.netlify.app/
 
 ## Screenshots
 ![alt text](images/screenshots/Screenshot%20(268).png)
@@ -19,4 +19,5 @@ This project is a secvence from an older project made by me.
 ![alt text](images/screenshots/Screenshot%20(277).png)
 ![alt text](images/screenshots/Screenshot%20(278).png)
 ![alt text](images/screenshots/Screenshot%20(279).png)
+![alt text](images/screenshots/Screenshot%202024-03-04%20105328.png)
 
