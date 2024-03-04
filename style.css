@@ -1,9 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     font-size: 15px;
     line-height: 1.6;
     color: #333;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -27,6 +31,7 @@ hr {
 
 .page {
     overflow: hidden;
+    scroll-behavior: smooth;
 }
 .container {
     width: 100%;
@@ -1108,4 +1113,378 @@ hr {
     to {
         opacity: 1;
     }
+}
+
+@media (max-width: 12300px) {
+    /* First Block */
+    .intro_suptitle {
+        font-size: 52px;
+    }
+
+    .intro_title {
+        font-size: 120px;
+    }
+
+    /* Seventh block */
+    .reviews_text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 990px) {
+    /* First Block */
+    .section--clients {
+        padding: 70px 0;
+    }
+    .intro_suptitle {
+        font-size: 32px;
+    }
+
+    .intro_title {
+        font-size: 80px;
+    }
+
+    /* Third Block */
+    .stat {
+        justify-content: center;
+    }
+
+    .stat_item {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        flex: none;
+        width: 33.33333%;
+        border: 0;
+    }
+
+    .stat_item:last-child {
+        border-right: 0;
+    }
+
+    /* Fourth block */
+    .services_item {
+        width: 50%;
+        padding-bottom: 0;
+    }
+
+    .services_item--border {
+        border-bottom: 0;
+    }
+
+    /* Seventh block */
+    .reviews .slick-slider{
+        padding: 0 60px;
+    }
+
+    .reviews_item {
+        padding-left: 175px;
+    }
+
+    /* Eleventh block */
+    .clients {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .clients_item {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .clients_item:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Last block */
+    .footer_col--first {
+        width: 100%;
+    }
+
+    .footer_col--second,
+    .footer_col--third {
+        width: 50%;
+    }
+
+    .instagram {
+        justify-content: flex-start;
+    }
+
+    .instagram_item {
+        width: auto;
+        border-right: 1px solid #ffffff;
+    }
+}
+
+@media (max-width: 770px) {
+    /* First Block */
+    .intro {
+        min-height: 650px;
+    }
+
+    .header {
+        padding: 10px 0;
+    }
+
+    .nav {
+        width: 100%;
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #9370DB;
+    }
+
+    .nav.active {
+        display: block;
+    }
+
+    .nav_link {
+        display: block;
+        margin: 0;
+        padding: 8px 20px;
+    }
+
+    .nav_link:hover {
+        color: #ffcce6;
+    }
+
+    .nav_link.active {
+        color: #ffcce6;
+    }
+
+    .nav_link:after {
+        background-color: #ffcce6;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .slider_text {
+        display: none;
+    }
+
+    .slider_item:active {
+        width: 50%;
+    }
+
+    .section {
+        padding: 40px 0;
+    }
+
+    .section--devices {
+        padding-bottom: 0;
+    }
+    .section_header {
+        padding-top: 50px;
+    }
+    .section_header--about {
+        padding-top: 0;
+    }
+    /* Second Block */
+    .card {
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .card_item {
+        width: 100%;
+        max-width: 410px;
+        margin-bottom: 30px;
+    }
+
+    .card_item:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Fourth block */
+    .services {
+        justify-content: center;
+    }
+
+    .services_item {
+        width: 100%;
+        max-width: 400px;
+        padding-left: 55px;
+        padding-right: 0;
+    }
+
+    .services_icon {
+        left: 0;
+    }
+
+    /* Sixth block */
+    .wedo_image {
+        display: none;
+    }
+
+    .wedo_item {
+        width: 100%;
+    }
+
+    /* Seventh block */
+    .reviews_photo {
+        position: static;
+        margin: 0 auto 20px;
+    }
+
+    .reviews_item {
+        padding-left: 0;
+    }
+
+    .reviews_text {
+        font-size: 16px;
+    }
+
+    .reviews_author {
+        font-size: 20px;
+    }
+
+    /* Tenth block */
+    .works {
+        flex-wrap: wrap;
+    }
+
+    .works_col {
+        flex: none;
+        width: 50%;
+    }
+
+    /* Twelfth block */
+    .blog {
+        max-width: 380px;
+        margin: 0 auto;
+    }
+
+    .blog_item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .blog_item:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Last block */
+    .footer_col--second,
+    .footer_col--third {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    /* First Block */
+    .intro_suptitle {
+        font-size: 22px;
+    }
+
+    .intro_title {
+        font-size: 40px;
+    }
+
+    /* Second Block */
+    .section_header {
+        margin-bottom: 50px;
+    }
+
+    .section_title {
+        font-size: 24px;
+    }
+
+    .section_title:after {
+        margin: 20px auto;
+    }
+
+    .section_suptitle {
+        font-size: 20px;
+    }
+
+    /* Third Block */
+    .stat_item {
+        width: 100%;
+        border-bottom: 1px solid #ffccff;
+    }
+
+    .stat_item:last-child {
+        border-bottom: 0;
+    }
+
+    .stat_count {
+        font-size: 52px;
+    }
+
+    /*Fourth block*/
+    .devices {
+        max-width: 320px;
+
+    }
+
+    .devices_item--phone {
+        width: 180px;
+        bottom: -50px;
+        right: -80px;
+    }
+
+    /* Seventh block */
+    .reviews .slick-slider{
+        padding: 0;
+    }
+
+    .slick-arrow {
+        top: 18%;
+    }
+
+    /* Ninth block */
+    .logos {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .logos_item {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .logos_image {
+        margin: 0 auto;
+    }
+
+    /* Eleventh block */
+    .clients_photo {
+        position: static;
+    }
+
+    .clients_item {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .clients_text:before {
+        margin: 15px auto;
+    }
+
+    /* Last block */
+    .subscribe {
+        flex-wrap: wrap;
+        max-width: none;
+    }
+
+    .subscribe_input {
+        margin-bottom: 10px;
+        border-right: 1px solid #e7e7e7;
+    }
+
+    .subscribe_input .subscribe_btn {
+        width: 100%;
+    }
+
+    .blogs_image {
+        width: 80px;
+        height: 50px;
+    }
+
+    .blogs_title {
+        font-size: 10px;
+    }
+
 }
