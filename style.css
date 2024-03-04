@@ -1109,12 +1109,52 @@ hr {
 .copyright span {
     color: #9370DB;
 }
+
+.mascot {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 500;
+    -webkit-animation: rotate-br 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    animation: rotate-br 5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+.mascot__image {
+    width: 100px;
+    height: 100px;
+}
+@-webkit-keyframes rotate-br {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        -webkit-transform-origin: bottom right;
+        transform-origin: bottom right;
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        -webkit-transform-origin: bottom right;
+        transform-origin: bottom right;
+    }
+}
+@keyframes rotate-br {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        -webkit-transform-origin: bottom right;
+        transform-origin: bottom right;
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        -webkit-transform-origin: bottom right;
+        transform-origin: bottom right;
+    }
+}
 @keyframes fadeIn {
     to {
         opacity: 1;
     }
 }
-
 @media (max-width: 12300px) {
     /* First Block */
     .intro_suptitle {
