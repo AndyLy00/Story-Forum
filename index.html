@@ -7,32 +7,6 @@
     <link rel="stylesheet" href="reset.css"/>
     <link rel="stylesheet" href="style.css"/>
     <script src="https://kit.fontawesome.com/dcbdca1857.js" crossorigin="anonymous"></script>
-    <script>
-        let a = "wedo_1";
-        let b = "wedo_2";
-        let c = "wedo_3";
-
-        function toggleVisibility(id) {
-            if (id === "wedo_1") {
-                let element = document.getElementById("wedo_1");
-                let icon = document.getElementById("i1");
-                element.classList.toggle("displayChange");
-                icon.classList.toggle("rotate");
-            }
-            if (id === "wedo_2") {
-                let element = document.getElementById("wedo_2");
-                let icon = document.getElementById("i2");
-                element.classList.toggle("displayChange");
-                icon.classList.toggle("rotate");
-            }
-            if (id === "wedo_3") {
-                let element = document.getElementById("wedo_3");
-                let icon = document.getElementById("i3");
-                element.classList.toggle("displayChange");
-                icon.classList.toggle("rotate");
-            }
-        }
-    </script>
 </head>
 <body>
 <header class="header header--fixed" id="header">
@@ -695,8 +669,48 @@
         </div>
     </footer>
 </div>
-<div class="mascot">
+<div class="mascot" id="mascot">
+    <div style="margin-right: 100px">
+        <div class="mascot__text">Write your story to get your adventure</div>
+    </div>
     <img class="mascot__image" src="images/phoenix.png" alt="">
 </div>
+
+<script>
+    let a = "wedo_1";
+    let b = "wedo_2";
+    let c = "wedo_3";
+
+    function toggleVisibility(id) {
+        if (id === "wedo_1") {
+            let element = document.getElementById("wedo_1");
+            let icon = document.getElementById("i1");
+            element.classList.toggle("displayChange");
+            icon.classList.toggle("rotate");
+        }
+        if (id === "wedo_2") {
+            let element = document.getElementById("wedo_2");
+            let icon = document.getElementById("i2");
+            element.classList.toggle("displayChange");
+            icon.classList.toggle("rotate");
+        }
+        if (id === "wedo_3") {
+            let element = document.getElementById("wedo_3");
+            let icon = document.getElementById("i3");
+            element.classList.toggle("displayChange");
+            icon.classList.toggle("rotate");
+        }
+    }
+
+    let mascot = document.getElementById("mascot");
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 200) {
+            mascot.style.display = 'grid';
+        } else {
+            mascot.style.display = 'none';
+        }
+    });
+
+</script>
 </body>
 </html>

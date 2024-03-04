@@ -1112,6 +1112,8 @@ hr {
 
 .mascot {
     position: fixed;
+    display: none;
+    justify-items: end;
     right: 20px;
     bottom: 20px;
     z-index: 500;
@@ -1121,6 +1123,24 @@ hr {
 .mascot__image {
     width: 100px;
     height: 100px;
+    cursor: pointer;
+}
+.mascot__text {
+    display: none;
+    padding: 10px;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px 10px 0 10px;
+    background-color: #ffcce6;
+}
+/*.mascot:hover {*/
+/*    animation: none;*/
+/*}*/
+.mascot:hover .mascot__text{
+    display: block;
+}
+.mascot-block {
+    display: none;
 }
 @-webkit-keyframes rotate-br {
     0% {
